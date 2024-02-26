@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>davenjagi.tech</title>
+    <link rel="icon" type="img/png" href="/static/styles/images/logo.png"></link>
+    <link rel="stylesheet" href="/static/styles/body.css"></link>
+    <link rel="stylesheet" href="/static/styles/about.css"></link>
+    <link rel="stylesheet" href="/static/styles/projects.css"></link>
+    <link rel="stylesheet" href="/static/styles/contacts.css"></link>
+    <link rel="stylesheet" href="/static/styles/education.css"></link>
+    <script type="text/javascript" src="/static/scripts/greetings.js"></script>
+    <script type="text/javascript" src="/static/scripts/landing.js"></script>
+    <script type="text/javascript" src="/static/scripts/menu.js"></script>
+    <script type="text/javascript" src="/static/scripts/displayhide.js"></script>
+</head>
+<body class="body">
+    <div id="header">
+        <div id="name">davenjagi</div>
+        <div id="navigation">
+            <div id="styling">
+                <div  id="introdatalink">
+                    <a class="active" href="#body1">Home</a>
+                </div>
+                <div  id="aboutId">
+                    <a class="active" href="#about">About</a>
+                </div>
+                <div  id="projectsId">
+                    <a class="active" href="#projectsdiv">Projects</a>
+                </div>
+                <div  id="contactId">
+                    <a class="active" href="#contacts">Contacts</a>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <div id="hbnbdescription">
+        <div id="aboutdiv">
+            <div id="abouthbnbheader">About HBnB</div>
+            <span class="close-icon" id="closeicon" onclick="hideProjectDescription()">&#10006;</span>
+        </div>
+        <div id="projectdescription">
+            <div id="innertemplate">
+                <div class="part">
+                    Part1: This project entailed developing an AirBnB clone, HBnB. The project involved all the four main basic requirements of any project, ie, CRUD, create, read, update, delete.
+                        The first part involved developing the console of the project, ie, create a terminal for the project using python's CMD module. Well, this is helpful to help you  manage the projet easily in different environments.
+                        This part entailed developing the BaseClass model. This class defines all the common attributes/methods for other classes.
+                        The class entailed public instance attributes, ie id which was made using UUID module, and stringified. The goal was having a unique ID for each BaseModel, eg, a new user is created, they're going to have a unique id that maps all the other attributes if the user to the user. This is used mostly for easier database manipulation and storage.
+                        The class also contained updated_at and created_at public instance attributes which assign the current datetime when an instance is created and updated.
+                        The class also contained the pulic instance method save that updates the instance attribute updated_at with the current datetime.
+                        The project seeked to store classes in form of dictionaries, well the dictionary filestorage system was what was implemented first.
+
+                    The tests for this project were witten using python's unittest module.
+                </div>
+                <div class="part">
+                    Part 2: The second part of the project was designing and developing a database system, the database used for this project was the sql based database system.
+                    I created a new user for the project and database for the project. Then added two features to the console to enable saving and deleting of objects stored in a class.
+                    The models were all linked together using the unique id in the database.
+                </div>
+                <div class="part">
+                    Part 3: The third part involved developing the front end part of the AirBnB project in static form. No data was served from the database for this part.
+                </div>
+                <div class="part">
+                    Part 4: The fourth part involved the integration of a framework into the AirBnB project. The web framework used for this project was Flask. This is used to help serve create routes to help serve the data.
+                </div>
+                <div class="part">
+                    Part 5: The fifth part of the project involved designing and creating API endpoints, it to get and serve the data from the database storage system.
+                    The API used for this case is the REST API.
+                </div>
+                <div class="part">
+                    Part 6: The sixth part of the project was serving data to the front end of the project in and making the whole project dynamic.
+                </div>
+            </div>
+            <div id="languagesline">- The languages and technologies used for this project were: </div>
+            <div id="languagesdiv">
+                <div>* Python, to structure and build the backend of the web. OOP was a large part of it and modules such as:
+                    <ul>
+                        <li>Flask webframework.</li>
+                        <li>Python's UUID module.</li>
+                        <li>Python's CMD module.</li>
+                        <li>Python's unittest module.</li>
+                    </ul>
+                </div>
+                <div>* HTML5, CSS & JavaScript to build, style, and make the front end dynamic.</div>
+                <div>* MySQL to structure and build the web application database.</div>
+                <div>* The web application was deployed in a linux server running Nginx and Gunicorn.</div>
+                <div>* The data was served in JSON format</div>
+            </div>
+            <div id="links1">
+                <h2 class="hbnblinks"><a href="https://github.com/NdipoKeith/AirBnB_clone_v4">GitHub</a></h3>
+                <h2 class="hbnblinks"><a href="https://www.davenjagi.tech/hbnb/">GoTo</a></h2>
+                <h2 class="hbnblinks">Project Architecture</h2>
+            </div>
+        </div>
+    </div>
+    <div id="terminaldescription">
+        <div>The project is curret not deployed</div>
+    </div>
+    <div id="body1">
+        <div id="covertop"></div>
+        <!--
+            <nav id="menuelement">
+            <div id="menuicon" class="hiddenonwide" onclick="showNavigation()">
+                <div class="menu-bar"></div>
+                <div class="menu-bar"></div>
+                <div class="menu-bar"></div>
+            </div>
+        </nav> -->
+        <div id="sidebar">
+            <div  id="introdatalink1">
+                <a class="active1" href="#body1">Home</a>
+            </div>
+            <div  id="aboutId">
+                <a class="active1" href="#about">About</a>
+            </div>
+            <div  id="projectsId">
+                <a class="active1" href="#projectsdiv">Projects</a>
+            </div>
+            <div  id="contactId">
+                <a class="active1" href="#contacts">Contacts</a>
+            </div>
+        </div>
+        <div id="home">
+            <div id="nameintro"></div>
+            <div id="actualname"></div>
+        </div>
+    </div>
+    <div id="about">
+        <div id="intro">
+            <div id="aboutme">About Me</div>
+            <div id="littleinfo">I'm a passionate Computer Engineering student at Mount Kenya University, currently fueled by a thirst for software development. I recently completed an intensive Software Engineering Foundations program at ALX-engineering. The ALX-engineering program provided a practical based approach to programming which seemed like a good place to sharpen my programming skills. Getting more familiar with databases management using tools like SQL based languages, and getting more familiar with programming using languages like C, Python, Node.js, HTML5, CSS, and basic JavaScript. ALX-engineering also provided a deep dive into System engineering and DevOps where it provided vast information about technological techniques such as web server monitoring using tools like Datadog, web server management, configuration and deployment of web and application servers using tools like Nginx and Gunicorn, and building REST API endpoints, working with them, and deploying web applications. The peer-to-peer based learning format helped prepare me for a job environment environment which is mostly in cohorts, and equipped me with sharp skills in version control using tools like Git. Other than coding, what else?? Well, I'm a sports lover, and I really do enjoy learning more about the workings of the  finance industry, hedge funds and private equities, and do really hope to venture into it someday. I'm also a huge believer that a very small man can cast a very large shadow. </div>
+        </div>
+    </div>
+    <div id="projectsdiv">
+        <div id="projectsheader">Projects</div>
+        <div id="projectstemplates">
+            <div id="hbnbtemplate"  onclick="showProjectDescription()"></div>
+            <div id="terminaltemplate">
+                <h1 id="terminaltext">Terminal</h1>
+            </div>
+        </div>
+    </div>
+    <div id="education">
+        <div id="educationheader">Education</div>
+        <div id="educationinfo">
+            <div id="textdiv">
+                <h2 id="header1"> Mount Kenya University. September 2019- To date</h2>
+                <h3 id="headerItext">- Undertaking Bachelors of Technology in Computer and Electronic Engi</h3>
+                <h2 id="header1"> Holberton School. February 2023 - February 2024</h2>
+                <h3 id="headerItext">- Completed foundational software engineering curriculum</h3>
+            </div>
+        </div>
+    </div>
+    <div id="contacts">
+        <div id="locationinfo">
+            <div id="locationheader">Location,</div>
+            <div id="locationname">Nairobi, Kenya</div>
+        </div>
+        <div id="contactinfo">
+            <div id="contactinfoheader">Contact Info</div>
+            <div id="socialsinfo">
+                <div id="linkedindiv"></div>
+                <div id="githubdiv"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

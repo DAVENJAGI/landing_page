@@ -1,0 +1,99 @@
+#contacts{
+    /*border: 1px solid red;*/
+    /*margin-top: 5vh;*/
+    background-color: #063b61;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+}
+#locationinfo{
+    /*border: 1px white solid;*/
+    margin: 5vh;
+    margin-left: 10vw;
+    height: 15vh;
+    width: 30%;
+    display: block;
+    align-items: center;
+}
+#locationheader{
+    /*border: solid  1px white;*/
+    margin-top: 3vh;
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+    color: antiquewhite;
+}
+#locationname{
+    /*border: solid  1px white;*/
+    margin-top: 3vh;
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+    color: antiquewhite;
+}
+#contactinfo{
+    /*border: 1px white solid;*/
+    margin: 5vh;
+    margin-left: 10vw;
+    height: 15vh;
+    width: 30%;
+}
+#contactinfoheader{
+    /*border: solid  1px white;*/
+    margin-top: 3vh;
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+    color: antiquewhite;
+}
+#socialsinfo{
+    /*border: solid  1px white;*/
+    margin-top: 2vh;
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+    color: antiquewhite;
+    display: flex;
+    height: 5vh;
+    align-items: center;
+    padding-left: 5%;
+}
+#linkedindiv{
+    background-image: url("/static/styles/images/linkedin.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: solid  1px white;
+    color: antiquewhite;
+    box-sizing: border-box;
+    margin-left: 10vw;
+    height: 5vh;
+    width: 5vh;
+    max-height: 20vh;
+    max-width: 20vw;
+    border-radius: 50%;
+}
+#linkedindiv:hover{
+    transform: scale(1.04);
+    background-color: #081b29;
+    color: aqua;
+}
+#githubdiv{
+    background-image: url("/static/styles/images/githubimage.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: antiquewhite;
+    box-sizing: border-box;
+    margin-left: 1vw;
+    height: 5vh;
+    width: 5vh;
+    max-height: 20vh;
+    max-width: 20vw;
+    border-radius: 50%;
+}
+#githubdiv:hover{
+    transform: scale(1.04);
+    background-color: #081b29;
+    color: aqua;
+}

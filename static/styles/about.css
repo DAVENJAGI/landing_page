@@ -1,0 +1,63 @@
+#about{
+    /*top: 0;*/
+    background-color: antiquewhite;
+    margin-top: 0;
+    transition: 5s;
+}
+#aboutme{
+    text-align: center;
+    margin-top: 5vh;
+    font-size: 50px;
+}
+#intro{
+    background-color: antiquewhite;
+    /*border: 1px solid black;*/
+    width: 94vw;
+    margin-left: 2vw;
+    margin-top: 2vh;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    font-size: 26px;
+}
+#briefintro{
+    border: #ededed 1px solid;
+    margin-top: 0%;
+    width: 97%;
+    margin-left: 1%;
+    font-size: 23px;
+    color: #ededed;
+    padding-left: 1%;
+}
+#littleinfo{
+    /*border: #ededed 1px solid;*/
+    margin-top: 2%;
+    width: 98%;
+    margin-left: 1%;
+    font-size: 20px;
+    color: black;
+    margin-bottom: 1%;
+    overflow: auto;
+    
+}
+#buttonbox{
+    /*border: #ededed 1px solid;*/
+    margin-top: 5%;
+    width: 98%;
+    margin-left: 1%;
+}
+#button1{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    height: 3%;
+    width: 12%;
+    margin-left: 1%;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5px;
+    background-color: #031929;
+    border: white 1px solid;
+    color: white;
+}
+::-webkit-scrollbar{
+    display: none;
+}

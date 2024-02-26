@@ -1,0 +1,144 @@
+#projectsdiv{
+    /*border: 1px solid green;*/
+    margin-top: 5vh;
+    width: 97vw;
+    margin-left: 1vw;
+    height: 30vh;
+    background-color: #f0e6da;
+    border-radius: 5px;
+    border-top: 1px solid gray;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+#projectsheader{
+    text-align: center;
+    margin-top: 2vh;
+    font-size: 35px;
+    font-style: italic;
+    font-weight: 900;
+}
+#projectstemplates{
+    /*border: 1px solid red;*/
+    margin: 2vh;
+    height: 60%;
+    display: flex;
+    align-items: center;
+}
+#hbnbtemplate{
+    border: 1px solid rgb(114, 11, 11);
+    margin-left: 22vw;
+    height: 50%;
+    width: 25%;
+    border-radius: 8px;
+    background-image: url("/static/styles/images/hbnb_logo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+#hbnbtemplate:hover{
+    transform: scale(1.05);
+}
+#terminaltemplate{
+    border: 1px solid black;
+    margin-left: 5%;
+    height: 50%;
+    width: 25%;
+    text-align: center;
+    border-radius: 8px;
+    overflow: auto;
+}
+#terminaltemplate:hover{
+    transform: scale(1.05);
+}
+#terminaltext{
+    font-style: oblique;
+    font-weight: 700;
+    color: #264143;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#hbnbdescription{
+    /*border: solid 1px black;*/
+    position: absolute;
+    height: 80%;
+    width: 80vw;
+    margin-left: 10vw;
+    margin-top: 45vh;
+    border-radius: 8px;
+    background-color: antiquewhite;
+    display: none;
+    overflow: auto;
+    border-bottom: solid 2px #264143;
+    z-index: 248;
+}
+#aboutdiv{
+    /*border: solid 1px black;*/
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: green;
+}
+#abouthbnbheader{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    margin: 2vw;
+    margin-top: 30px;
+    margin-left: 40%;
+}
+
+.close-icon{
+    margin: 2vw;
+    font-size: 35px;
+    margin-left: 30%;
+    color: aqua;
+}
+.close-icon:hover{
+    color: red;
+}
+#projectdescription{
+    /*border: solid 1px black;*/
+    margin: 3vh;
+    height: 80%;
+    overflow: auto;
+    padding: 3vw;
+    overflow: auto;
+}
+#languagesline{
+    font-size: 20px;
+}
+#innertemplate{
+    padding: 2vw;
+    font-size: 20px;
+    word-spacing: 2px;
+    color: rgb(0, 0, 0);
+}
+.part{
+    padding-bottom: 2vh;
+}
+#languagesdiv{
+    padding-left: 4vw;
+    font-size: 18px;
+}
+#links1{
+    margin-top: 2vh;
+    margin-left: 20%;
+    display: flex;
+    /*margin-left: 25vw;*/
+}
+.hbnblinks{
+    padding-left: 5vw;
+}
+#terminaldescription{
+    /*border: solid 1px black;*/
+    position: absolute;
+    height: 80%;
+    width: 80vw;
+    margin-left: 10vw;
+    margin-top: 45vh;
+    border-radius: 8px;
+    background-color: antiquewhite;
+    display: none;
+    overflow: auto;
+    border-bottom: 2px solid black;
+    
+}
